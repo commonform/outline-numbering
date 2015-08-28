@@ -53,7 +53,8 @@ module.exports = function(numbering, abbreviated) {
   if (abbreviated) {
     var length = numbering.length
     return (
-      renderComponent(numbering[length - 1], length) ) }
+      renderComponent(numbering[length - 1], length) +
+      ( length === 1 ? '.' : '' ) ) }
   else {
     return numbering.reduce(
       function(number, component, i) {

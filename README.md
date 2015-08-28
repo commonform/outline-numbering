@@ -87,7 +87,7 @@ assert.deepEqual(
     [ { series:  { number: 1, of: 1 },
         element: { number: 1, of: 1 } } ],
     true),
-  '1')
+  '1.')
 
 assert.deepEqual(
   outline(
