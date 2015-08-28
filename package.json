@@ -1,0 +1,19 @@
+{
+  "name": "outline-numbering",
+  "description": "number hierarchical documents like 1(c)(iv)",
+  "version": "0.0.0",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "dependencies": {
+    "lower-alpha": "~1.0.0",
+    "romanize": "~0.1.0"
+  },
+  "devDependencies": {
+    "defence-cli": "~1.0.1",
+    "replace-require-self": "~1.0.0"
+  },
+  "license": "Apache-2.0",
+  "repository": "commonform/outline-numbering",
+  "scripts": {
+    "test": "defence README.md | replace-require-self | node"
+  }
+}
