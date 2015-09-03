@@ -1,6 +1,6 @@
 {
   "name": "outline-numbering",
-  "description": "number hierarchical documents like 1(c)(iv)",
+  "description": "number hierarchical documents like Section 1(c)(iv)",
   "version": "0.1.1",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "dependencies": {
