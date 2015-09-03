@@ -56,8 +56,10 @@ module.exports = function(numbering, abbreviated) {
       renderComponent(numbering[length - 1], length) +
       ( length === 1 ? '.' : '' ) ) }
   else {
-    return numbering.reduce(
-      function(number, component, i) {
-        return ( number + renderComponent(component, i + 1) ) },
-      '') } }
+    return (
+      'Section ' +
+      numbering.reduce(
+        function(number, component, i) {
+          return ( number + renderComponent(component, i + 1) ) },
+        '') ) } }
 
