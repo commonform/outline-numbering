@@ -3,6 +3,8 @@ var outline = require('outline-numbering')
 var assert = require('assert')
 ```
 
+The package is a numbering scheme as described by [abstract-numbering](https://www.npmjs.com/package/abstract-numbering).
+
 # Outline Style
 
 ```javascript
