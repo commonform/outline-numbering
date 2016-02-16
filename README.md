@@ -30,6 +30,14 @@ assert.deepEqual(
 
 assert.deepEqual(
   outline([
+    { series:  { number: 1,  of: 1 },
+      element: { number: 1,  of: 1 } },
+    { series:  { number: 1,  of: 1 },
+      element: { number: 28, of: 28 } } ]),
+  'Section 1(ab)')
+
+assert.deepEqual(
+  outline([
     { series:  { number: 1, of: 1 },
       element: { number: 1, of: 1 } },
     { series:  { number: 1, of: 1 },
