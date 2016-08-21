@@ -45,11 +45,11 @@ assert.deepEqual(
 assert.deepEqual(
   outline([
     {
-      series:  {number: 1,  of: 1},
+      series: {number: 1,  of: 1},
       element: {number: 1,  of: 1}
     },
     {
-      series:  {number: 1,  of: 1},
+      series: {number: 1,  of: 1},
       element: {number: 28, of: 28}
     }
   ]),
@@ -59,15 +59,15 @@ assert.deepEqual(
 assert.deepEqual(
   outline([
     {
-      series:  {number: 1, of: 1},
+      series: {number: 1, of: 1},
       element: {number: 1, of: 1}
     },
     {
-      series:  {number: 1, of: 1},
+      series: {number: 1, of: 1},
       element: {number: 1, of: 1}
     },
     {
-      series:  {number: 1, of: 1},
+      series: {number: 1, of: 1},
       element: {number: 1, of: 1}
     }
   ]),
@@ -77,19 +77,19 @@ assert.deepEqual(
 assert.deepEqual(
   outline([
     {
-      series:  {number: 1, of: 1},
+      series: {number: 1, of: 1},
       element: {number: 1, of: 1}
     },
     {
-      series:  {number: 1, of: 1},
+      series: {number: 1, of: 1},
       element: {number: 1, of: 1}
     },
     {
-      series:  {number: 1, of: 1},
+      series: {number: 1, of: 1},
       element: {number: 1, of: 1}
     },
     {
-      series:  {number: 1, of: 1},
+      series: {number: 1, of: 1},
       element: {number: 1, of: 1}
     }
   ]),
@@ -99,23 +99,23 @@ assert.deepEqual(
 assert.deepEqual(
   outline([
     {
-      series:  {number: 1, of: 1},
+      series: {number: 1, of: 1},
       element: {number: 1, of: 1}
     },
     {
-      series:  {number: 1, of: 1},
+      series: {number: 1, of: 1},
       element: {number: 1, of: 1}
     },
     {
-      series:  {number: 1, of: 1},
+      series: {number: 1, of: 1},
       element: {number: 1, of: 1}
     },
     {
-      series:  {number: 1, of: 1},
+      series: {number: 1, of: 1},
       element: {number: 1, of: 1}
     },
     {
-      series:  {number: 1, of: 1},
+      series: {number: 1, of: 1},
       element: {number: 1, of: 1}
     }
   ]),
@@ -125,27 +125,27 @@ assert.deepEqual(
 assert.deepEqual(
   outline([
     {
-      series:  {number: 1, of: 1},
+      series: {number: 1, of: 1},
       element: {number: 1, of: 1}
     },
     {
-      series:  {number: 1, of: 1},
+      series: {number: 1, of: 1},
       element: {number: 1, of: 1}
     },
     {
-      series:  {number: 1, of: 1},
+      series: {number: 1, of: 1},
       element: {number: 1, of: 1}
     },
     {
-      series:  {number: 1, of: 1},
+      series: {number: 1, of: 1},
       element: {number: 1, of: 1}
     },
     {
-      series:  {number: 1, of: 1},
+      series: {number: 1, of: 1},
       element: {number: 1, of: 1}
     },
     {
-      series:  {number: 1, of: 1},
+      series: {number: 1, of: 1},
       element: {number: 1, of: 1}
     }
   ]),
@@ -160,7 +160,7 @@ assert.deepEqual(
   outline(
     [
       {
-        series:  {number: 1, of: 1},
+        series: {number: 1, of: 1},
         element: {number: 1, of: 1}
       }
     ],
@@ -173,11 +173,11 @@ assert.deepEqual(
   outline(
     [
       {
-        series:  {number: 1, of: 1},
+        series: {number: 1, of: 1},
         element: {number: 1, of: 1}
       },
       {
-        series:  {number: 1, of: 1},
+        series: {number: 1, of: 1},
         element: {number: 1, of: 1}
       }
     ],
