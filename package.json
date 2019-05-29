@@ -10,7 +10,8 @@
   "devDependencies": {
     "defence-cli": "^3.0.1",
     "replace-require-self": "^1.1.1",
-    "standard": "^12.0.1"
+    "standard": "^12.0.1",
+    "standard-markdown": "^5.0.1"
   },
   "files": [
     "index.js"
@@ -18,7 +19,7 @@
   "license": "BlueOak-1.0.0",
   "repository": "commonform/outline-numbering",
   "scripts": {
-    "lint": "standard",
+    "lint": "standard-markdown README.md && standard",
     "test": "defence README.md | replace-require-self | node"
   }
 }
