@@ -2,6 +2,8 @@
 
 number hierarchical documents like Section 1(c)(iv)
 
+outline-numbering is part of the [abstract-numbering](https://www.npmjs.com/search?q=keywords:abstract-numbering) family of packages.
+
 ```javascript
 var outline = require('outline-numbering')
 var assert = require('assert')
