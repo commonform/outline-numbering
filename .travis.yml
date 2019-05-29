@@ -1,4 +1,6 @@
-language: "node_js"
-node_js: "node"
+language: node_js
+node_js: node
 sudo: false
-script: ['npm run test', 'npm run lint']
+script:
+- npm run test
+- npm run lint
