@@ -11,8 +11,8 @@ The package is a numbering scheme as described by [abstract-numbering](https://w
 assert.deepEqual(
   outline([
     {
-      series: {number: 1, of: 1},
-      element: {number: 1, of: 1}
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
     }
   ]),
   'Section 1'
@@ -21,8 +21,8 @@ assert.deepEqual(
 assert.deepEqual(
   outline([
     {
-      series: {number: 1, of: 2},
-      element: {number: 1, of: 1}
+      series: { number: 1, of: 2 },
+      element: { number: 1, of: 1 }
     }
   ]),
   'Section A-1'
@@ -31,12 +31,12 @@ assert.deepEqual(
 assert.deepEqual(
   outline([
     {
-      series: {number: 1, of: 1},
-      element: {number: 1, of: 1}
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
     },
     {
-      series: {number: 1, of: 1},
-      element: {number: 1, of: 1}
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
     }
   ]),
   'Section 1(a)'
@@ -45,12 +45,12 @@ assert.deepEqual(
 assert.deepEqual(
   outline([
     {
-      series: {number: 1,  of: 1},
-      element: {number: 1,  of: 1}
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
     },
     {
-      series: {number: 1,  of: 1},
-      element: {number: 28, of: 28}
+      series: { number: 1, of: 1 },
+      element: { number: 28, of: 28 }
     }
   ]),
   'Section 1(ab)'
@@ -59,16 +59,16 @@ assert.deepEqual(
 assert.deepEqual(
   outline([
     {
-      series: {number: 1, of: 1},
-      element: {number: 1, of: 1}
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
     },
     {
-      series: {number: 1, of: 1},
-      element: {number: 1, of: 1}
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
     },
     {
-      series: {number: 1, of: 1},
-      element: {number: 1, of: 1}
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
     }
   ]),
   'Section 1(a)(i)'
@@ -77,20 +77,20 @@ assert.deepEqual(
 assert.deepEqual(
   outline([
     {
-      series: {number: 1, of: 1},
-      element: {number: 1, of: 1}
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
     },
     {
-      series: {number: 1, of: 1},
-      element: {number: 1, of: 1}
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
     },
     {
-      series: {number: 1, of: 1},
-      element: {number: 1, of: 1}
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
     },
     {
-      series: {number: 1, of: 1},
-      element: {number: 1, of: 1}
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
     }
   ]),
   'Section 1(a)(i)(A)'
@@ -99,24 +99,24 @@ assert.deepEqual(
 assert.deepEqual(
   outline([
     {
-      series: {number: 1, of: 1},
-      element: {number: 1, of: 1}
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
     },
     {
-      series: {number: 1, of: 1},
-      element: {number: 1, of: 1}
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
     },
     {
-      series: {number: 1, of: 1},
-      element: {number: 1, of: 1}
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
     },
     {
-      series: {number: 1, of: 1},
-      element: {number: 1, of: 1}
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
     },
     {
-      series: {number: 1, of: 1},
-      element: {number: 1, of: 1}
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
     }
   ]),
   'Section 1(a)(i)(A)(I)'
@@ -125,28 +125,28 @@ assert.deepEqual(
 assert.deepEqual(
   outline([
     {
-      series: {number: 1, of: 1},
-      element: {number: 1, of: 1}
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
     },
     {
-      series: {number: 1, of: 1},
-      element: {number: 1, of: 1}
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
     },
     {
-      series: {number: 1, of: 1},
-      element: {number: 1, of: 1}
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
     },
     {
-      series: {number: 1, of: 1},
-      element: {number: 1, of: 1}
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
     },
     {
-      series: {number: 1, of: 1},
-      element: {number: 1, of: 1}
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
     },
     {
-      series: {number: 1, of: 1},
-      element: {number: 1, of: 1}
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
     }
   ]),
   'Section 1(a)(i)(A)(I)(a)'
@@ -160,8 +160,8 @@ assert.deepEqual(
   outline(
     [
       {
-        series: {number: 1, of: 1},
-        element: {number: 1, of: 1}
+        series: { number: 1, of: 1 },
+        element: { number: 1, of: 1 }
       }
     ],
     true
@@ -173,12 +173,12 @@ assert.deepEqual(
   outline(
     [
       {
-        series: {number: 1, of: 1},
-        element: {number: 1, of: 1}
+        series: { number: 1, of: 1 },
+        element: { number: 1, of: 1 }
       },
       {
-        series: {number: 1, of: 1},
-        element: {number: 1, of: 1}
+        series: { number: 1, of: 1 },
+        element: { number: 1, of: 1 }
       }
     ],
     true
