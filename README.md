@@ -1,3 +1,7 @@
+# outline-numbering
+
+number hierarchical documents like Section 1(c)(iv)
+
 ```javascript
 var outline = require('outline-numbering')
 var assert = require('assert')
