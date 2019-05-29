@@ -18,6 +18,10 @@
   ],
   "license": "BlueOak-1.0.0",
   "repository": "commonform/outline-numbering",
+  "keywords": [
+    "numbering",
+    "abstract-numbering"
+  ],
   "scripts": {
     "lint": "standard-markdown README.md && standard",
     "test": "defence README.md | replace-require-self | node"
