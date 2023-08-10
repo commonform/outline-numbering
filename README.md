@@ -21,7 +21,7 @@ assert.deepEqual(
       element: { number: 1, of: 1 }
     }
   ]),
-  'Section 1'
+  'Section\u00a01'
 )
 
 assert.deepEqual(
@@ -31,7 +31,7 @@ assert.deepEqual(
       element: { number: 1, of: 1 }
     }
   ]),
-  'Section A-1'
+  'Section\u00a0A-1'
 )
 
 assert.deepEqual(
@@ -45,7 +45,7 @@ assert.deepEqual(
       element: { number: 1, of: 1 }
     }
   ]),
-  'Section 1(a)'
+  'Section\u00a01(a)'
 )
 
 assert.deepEqual(
@@ -59,7 +59,7 @@ assert.deepEqual(
       element: { number: 28, of: 28 }
     }
   ]),
-  'Section 1(ab)'
+  'Section\u00a01(ab)'
 )
 
 assert.deepEqual(
@@ -77,29 +77,7 @@ assert.deepEqual(
       element: { number: 1, of: 1 }
     }
   ]),
-  'Section 1(a)(i)'
-)
-
-assert.deepEqual(
-  outline([
-    {
-      series: { number: 1, of: 1 },
-      element: { number: 1, of: 1 }
-    },
-    {
-      series: { number: 1, of: 1 },
-      element: { number: 1, of: 1 }
-    },
-    {
-      series: { number: 1, of: 1 },
-      element: { number: 1, of: 1 }
-    },
-    {
-      series: { number: 1, of: 1 },
-      element: { number: 1, of: 1 }
-    }
-  ]),
-  'Section 1(a)(i)(A)'
+  'Section\u00a01(a)(i)'
 )
 
 assert.deepEqual(
@@ -119,13 +97,9 @@ assert.deepEqual(
     {
       series: { number: 1, of: 1 },
       element: { number: 1, of: 1 }
-    },
-    {
-      series: { number: 1, of: 1 },
-      element: { number: 1, of: 1 }
     }
   ]),
-  'Section 1(a)(i)(A)(I)'
+  'Section\u00a01(a)(i)(A)'
 )
 
 assert.deepEqual(
@@ -149,13 +123,39 @@ assert.deepEqual(
     {
       series: { number: 1, of: 1 },
       element: { number: 1, of: 1 }
+    }
+  ]),
+  'Section\u00a01(a)(i)(A)(I)'
+)
+
+assert.deepEqual(
+  outline([
+    {
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
+    },
+    {
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
+    },
+    {
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
+    },
+    {
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
+    },
+    {
+      series: { number: 1, of: 1 },
+      element: { number: 1, of: 1 }
     },
     {
       series: { number: 1, of: 1 },
       element: { number: 1, of: 1 }
     }
   ]),
-  'Section 1(a)(i)(A)(I)(a)'
+  'Section\u00a01(a)(i)(A)(I)(a)'
 )
 ```
 

@@ -71,7 +71,7 @@ module.exports = function (numbering, abbreviated) {
     )
   } else {
     return (
-      'Section ' +
+      'Section\u00a0' +
       numbering.reduce(function (number, component, i) {
         return number + renderComponent(component, i + 1)
       }, '')
